@@ -5,7 +5,7 @@ A D2NT Cow script that is coded to detect the Cow King NPC and attempt to evade 
 Download NTMooMooFarm.ntj
 Copy & paste the file in your D2NT directory exD2Etal\scripts\NTBot\bots
 
-## Changes<
+## Changes
 Date - 07/02/2017;
 - Slightly updated the script for better King detection and ivasion.
 - It is highly recommended to use "NTConfig_CowKingChicken" set to value "95".
