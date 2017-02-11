@@ -5,10 +5,10 @@ Script uses chain lightning as a default skill against mobs with low light resis
 The second script which I included has lines '141' && '146' modified to use Fire Ball on immune to Light mobs even if Merc has infinity and removes the immunity to lightning, the character would still cast Fire Ball in order to finish the run faster as it takes 1-2 Fire Balls to kill such a mob.
 
 ## Installation
-#1 - Download NTConfig_Sorceress_YourCharacterName.ntl
-#2 - Download NTAttackSorceress.ntl
-#3 - Place the NTConfig file inside your char_config folder.
-#4 - Replace NTAttackSorceress file with the one inside "D2Etal\scripts\libs\common" folder.
+- Download NTConfig_Sorceress_YourCharacterName.ntl
+- Download NTAttackSorceress.ntl
+- Place the NTConfig file inside your char_config folder.
+- Replace NTAttackSorceress file with the one inside "D2Etal\scripts\libs\common" folder.
 
 ## Character Equipment
 The equipment I have tried so far worked flawlessly on 5 bots 24/7 which consists of;
@@ -19,12 +19,15 @@ SCL 17-20 life until you reach 2k life at least with BO.
 
 
 ## Script changes.
-10/02/2017;
-- Changed LightRess detection to >= 55 instead of >= 95, that way even if mercenary has infinity and removes light immunity, character would still cast Fire Ball instead of Chain Lightning for quicker MF cleaning.
-09/02/2017;
-- Changed cast skill to light immune detection from CastSkill (53) - #Chain Lightning to CastSkill (47) - #Fire Ball
-08/02/2017;
-Changed Sorceress script to use Chain Lightning for regular mobs, Fire Ball for immune to light mobs & Lightnig for unique mobs.
+- 10/02/2017;
+
+~ Changed LightRess detection to >= 55 instead of >= 95, that way even if mercenary has infinity and removes light immunity, character would still cast Fire Ball instead of Chain Lightning for quicker MF cleaning.
+- 09/02/2017;
+
+~ Changed cast skill to light immune detection from CastSkill (53) - #Chain Lightning to CastSkill (47) - #Fire Ball
+- 08/02/2017;
+
+~ Changed Sorceress script to use Chain Lightning for regular mobs, Fire Ball for immune to light mobs & Lightnig for unique mobs.
 
 ## Tests
 I have tested the following config with 5 characters, none of which chickened once for 20 games, mostly the chickens I had were from failing to use a waypoint and life bug upon waypoint BO.
